@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Basic HTML Table</title>
+
+	 <style type="text/css">table, th, td {
+	 	border: 1px solid black;
+	 	border-collapse: collapse;
+	 }
+	 th, td {
+	 	padding: 10px;
+	 }
+	 th {
+	 	text-align: left;
+	 }
+	 #t01 {
+	 	background-color: #f1f1c1;
+	 }
+	 #t01 tr:nth-child(even) {
+	 	background-color: grey;
+	 }
+	 #t01 tr:nth-child(odd) {
+	 	background-color: lightgrey;
+	 }
+	</style>
+
+</head>
+
+<body>
+     <h2>Table</h2>
+<table style="width: 100%"
+          id="t01">
+	<caption>Resident Evil characters</caption>
+	<tr>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<td>Jill</td>
+		<td>Valentine</td>
+		<td>25</td>
+	</tr>
+	<tr>
+		<td>Chris</td>
+		<td>Redfield</td>
+		<td>27</td>
+	</tr>
+	<tr><td>Leon</td>
+		<td>Kennedy</td>
+		<td>23</td>
+	</tr>
+	<tr><td>Claire</td>
+		<td>Redfield</td>
+		<td>19</td>
+	</tr>
+	<tr><td>Ada</td>
+		<td>Wong</td>
+		<td>24</td>
+	</tr>
+	<tr><td>Barry</td>
+		<td>Byrton</td>
+		<td>37</td>
+	</tr>
+	<tr><td>Rebbeca</td>
+		<td>Chambers</td>
+		<td>22</td>
+	</tr>
+</table>
+</body>
+</html>
